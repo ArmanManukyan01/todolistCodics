@@ -1,0 +1,15 @@
+const TYPE_ACTION = {
+    TODO: {
+        GET: 'GET_TODO',
+        GET_SAGA: 'GET_TODO_SAGA',
+        POST: 'POST_TODO',
+        POST_SAGA: 'POST_TODO_SAGA',
+        UPDATE: 'UPDATE_TODO',
+        UPDATE_SAGA: 'UPDATE_TODO_SAGA',
+        DELETE: 'DELETE_TODO',
+        DELETE_SAGA: 'DELETE_TODO_SAGA',
+        COMPLETE_TODO: 'COMPLETE_TODO',
+        COMPLETE_TODO_SAGA: 'COMPLETE_TODO_SAGA',
+    }
+}
+export default TYPE_ACTION;
